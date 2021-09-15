@@ -3,11 +3,11 @@ import './css/NavBar.css';
 
 const Nav = () => {
   return (
-    <nav class="header-nav">
-      <h1 class="logo">Egy Film </h1>
-      <ul class="nav-list" id="nav-list">
+    <nav className="header-nav">
+      <h1 className="logo">Egy Film </h1>
+      <ul className="nav-list" id="nav-list">
         <li>
-          <a href="/" class="home active">
+          <a href="/" className="home active">
             Home
           </a>
         </li>

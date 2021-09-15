@@ -7,7 +7,7 @@
 }
 
 .logo {
-    color: #15C4B4;
+    color: #1575c4;
     font-size: 2.2rem;
     font-family: 'Righteous', cursive;
 }
@@ -36,6 +36,6 @@
 }
 
 .active {
-    border-bottom: 3px solid #15C4B4;
+    border-bottom: 3px solid #1575c4;
 }
 
