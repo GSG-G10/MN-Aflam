@@ -1,0 +1,41 @@
+.header-nav {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0F1219;
+}
+
+.logo {
+    color: #15C4B4;
+    font-size: 2.2rem;
+    font-family: 'Righteous', cursive;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.nav-list {
+    max-width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-list li {
+    font-size: 1rem;
+    padding: 1rem 0.7rem;
+    border-right: none;
+    font-weight: bold;
+}
+
+.active {
+    border-bottom: 3px solid #15C4B4;
+}
+

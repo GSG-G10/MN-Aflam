@@ -1,12 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component, Fragment } from "react";
+import "./App.css";
+import Nav from "./componenet/NavBar";
 
-function App() {
-  return (
-    <div>
-     
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Fragment>
+        <Nav />
+        
+      </Fragment>
+    );
+  }
 }
 
 export default App;
