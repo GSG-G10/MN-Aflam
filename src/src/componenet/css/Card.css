@@ -1,0 +1,42 @@
+main {
+    background-color: #0F1219;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchResult {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.movieContainer {
+    margin: 10px;
+    background-color: #1A2129;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+}
+
+.moviePoster {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.movieDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    min-height: 250px;
+}
+.overview {
+    padding-top: 2rem;
+    height: 10px;
+    text-align: justify;
+}

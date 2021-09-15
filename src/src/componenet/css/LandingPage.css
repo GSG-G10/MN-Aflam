@@ -41,3 +41,9 @@
     font-size: 25px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 425px) {
+    .search_box {
+        width: 95%;
+    }
+}
