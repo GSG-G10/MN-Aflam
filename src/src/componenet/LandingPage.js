@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/LandingPage.css";
 
-const LandingPage = () => {
+const LandingPage = ({handleChange}) => {
   return (
     <header className="landingPage">
       <div className="mainContainer">
@@ -10,6 +10,7 @@ const LandingPage = () => {
             type="text"
             placeholder="looking for a movie ?"
             id="searchBar"
+            onChange={ (e, key) => {handleChange(e, 'movie')}}
           ></input>
         </div>
       </div>
